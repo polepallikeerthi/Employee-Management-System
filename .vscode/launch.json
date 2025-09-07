@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "UpdateEmployee",
+      "request": "launch",
+      "mainClass": "employee.management.system.UpdateEmployee",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "ViewEmployee",
+      "request": "launch",
+      "mainClass": "employee.management.system.ViewEmployee",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "AddEmployee",
+      "request": "launch",
+      "mainClass": "employee.management.system.AddEmployee",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "TestConnection",
+      "request": "launch",
+      "mainClass": "employee.management.system.TestConnection",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "Main_class",
+      "request": "launch",
+      "mainClass": "employee.management.system.Main_class",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "Splash",
+      "request": "launch",
+      "mainClass": "employee.management.system.Splash",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "Login",
+      "request": "launch",
+      "mainClass": "employee.management.system.Login",
+      "projectName": "employee management system_588dc64f"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "splash",
+      "request": "launch",
+      "mainClass": "employee.management.system.splash",
+      "projectName": "employee management system_588dc64f"
+    }
+  ]
+}
