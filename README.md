@@ -1,18 +1,38 @@
-## Getting Started
+How to Run:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1.Clone this repository:
 
-## Folder Structure
+git clone https://github.com/polepallikeerthi/Employee-Management-System.git
 
-The workspace contains two folders by default, where:
+2.Import the project into Eclipse/IntelliJ.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+3.Database Setup
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Open MySQL and run the following:
+CREATE DATABASE employeemanagement;
+USE employeemanagement;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+CREATE TABLE login (
+username VARCHAR(20),
+password VARCHAR(20)
+);
 
-## Dependency Management
+INSERT INTO login VALUES ('keerthi', '123456789');
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+CREATE TABLE employee (
+name VARCHAR(40),
+fname VARCHAR(40),
+dob VARCHAR(40),
+salary VARCHAR(40),
+address VARCHAR(40),
+phone VARCHAR(40),
+email VARCHAR(40),
+education VARCHAR(40),
+designation VARCHAR(40),
+aadhar VARCHAR(40),
+empID VARCHAR(40) PRIMARY KEY
+);
+4.Make sure your MySQL server is running and the login table contains valid username/password records (e.g., ('keerthi', '123456789'))
+Ensure MySQL is running and database is set up.
+
+5.Run Splash.java to start the application.
