@@ -1,3 +1,7 @@
+Project Description:
+A desktop-based application built using Java Swing and MySQL to efficiently manage employee records.
+The system supports CRUD operations such as adding, viewing, updating, searching, and removing employees through a user-friendly interface.
+
 How to Run:
 
 1.Clone this repository:
@@ -32,6 +36,7 @@ designation VARCHAR(40),
 aadhar VARCHAR(40),
 empID VARCHAR(40) PRIMARY KEY
 );
+
 4.Make sure your MySQL server is running and the login table contains valid username/password records (e.g., ('keerthi', '123456789'))
 Ensure MySQL is running and database is set up.
 
